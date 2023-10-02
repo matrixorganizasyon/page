@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;   
+    background-image: url("assets/img/bg.jpeg");
+    background-size: cover;
+
+}
+
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 200px;
+    gap: 20px;
+}
+
+main h1{
+    font-weight: 700;
+    font-size: 93px;
+    color: white;
+}
+
+main h1 :nth-child(1){
+    color: #FF9000;
+    font-size: 66px;
+}
+
+main p:nth-child(2){
+    color: #FF9000;
+    font-weight: 700;
+}
+
+main img{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.içerik{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-weight: 400;
+}
+
+.içerik a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color:#83817D;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
